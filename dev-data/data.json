@@ -1,0 +1,35 @@
+[
+    {
+        "id": 0,
+        "title": "Getting Started with Node.js",
+        "coverimage": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "author": "Faisal",
+        "published": "10d",
+        "readingtime": "7 min",
+        "topics": "#node.js, #backend, #beginner",
+        "summary": "Node.js is a powerful tool that has gained widespread popularity in recent years. It is an open-source, cross-platform runtime environment that allows developers to run JavaScript code",
+        "article": "Node.js is a powerful tool that has gained widespread popularity in recent years. It is an open-source, cross-platform runtime environment that allows developers to run JavaScript code outside of a web browser. Node.js offers a range of benefits, including increased performance, scalability, and flexibility. One of the key advantages of Node.js is its event-driven architecture, which allows for highly efficient and responsive server-side applications. It also offers a wide range of libraries and modules, making it easy to develop applications with a variety of functionalities.Node.js is commonly used for building web applications, real-time communication systems, and even desktop applications. Its popularity has led to a growing ecosystem of tools and resources, including frameworks such as Express.js and libraries such as Socket.io. In addition, Node.js has a large and active community, which provides ongoing support and contributes to the development of new tools and features. This community-driven approach ensures that Node.js remains up-to-date with the latest technologies and trends. Overall, Node.js is a powerful and versatile tool that can help developers create highly efficient and scalable applications. Whether you are a beginner or an experienced developer, Node.js offers a wide range of benefits and can help you build robust and innovative applications."
+    },
+    {
+        "id": 1,
+        "title": "Why You Should Be a Programmer",
+        "coverimage": "https://images.unsplash.com/photo-1503252947848-7338d3f92f31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80",
+        "author": "Faisal",
+        "published": "14d",
+        "readingtime": "3 min",
+        "topics": "#programming, #beginner",
+        "summary": "Programming is a highly sought-after skill in today's digital age. With the world becoming increasingly digital, programming has become an integral part of our lives, used in almost",
+        "article": "Programming is a highly sought-after skill in today's digital age. With the world becoming increasingly digital, programming has become an integral part of our lives, used in almost every industry, from finance to healthcare to entertainment. As a programmer, you will have a high demand in the job market, with many industries looking for skilled programmers to build, maintain, and improve their software systems. Furthermore, programming is one of the highest paid professions in the IT industry, and you can earn a good salary right from the beginning of your career. <br><br> One of the best things about programming is its flexibility. You can work remotely, on a flexible schedule, or as a freelancer, making it an ideal career choice for those who value work-life balance. Additionally, programming offers opportunities for constant learning and growth, as new technologies and programming languages are constantly being developed. This means that you will always be able to learn and improve your skills, keeping up-to-date with the latest developments in your field. <br><br> By becoming a programmer, you can build a rewarding career that provides you with financial stability, flexibility, and the opportunity for constant growth and development. With the world becoming increasingly digital, the demand for programmers is only going to increase, making it a smart career choice for anyone looking for a fulfilling and lucrative career."
+    },
+    {
+        "id": 2,
+        "title": "Top Productivity Tip While Coding",
+        "coverimage": "https://images.unsplash.com/photo-1600267165477-6d4cc741b379?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "author": "Faisal",
+        "published": "16d",
+        "readingtime": "3 min",
+        "topics": "#programming, #productivity",
+        "summary": "Programming is a highly sought-after skill in today's digital age. With the world becoming increasingly digital, programming has become an integral part of our lives, used in almost",
+        "article": "Productivity is a crucial aspect of coding that can have a significant impact on the quality and efficiency of your work. Here are some tips to help you increase your productivity while coding: <br><br> Plan your work: Before starting to code, make a plan for what you need to accomplish. This will help you stay focused and avoid getting sidetracked. It will also make it easier to break down your work into manageable tasks. <br><br> Use a text editor or IDE: Using a text editor or integrated development environment (IDE) can help you write code more efficiently. They offer features such as code highlighting, auto-completion, and syntax checking, which can save you time and reduce errors.<br><br> Take breaks: It's essential to take regular breaks while coding to avoid burnout and improve focus. You can take a short break every hour or two to stretch your legs, grab a snack, or do something relaxing. <br><br> Stay organized: Keeping your workspace organized can help you stay focused and reduce distractions. Make sure to keep your files and folders organized and use tools like to-do lists and calendars to stay on top of your tasks. <br><br> Avoid multitasking: Multitasking can be tempting, but it can also be counterproductive. Try to focus on one task at a time to avoid getting overwhelmed. <br><br> Collaborate effectively: If you're working with others, make sure to communicate effectively and use tools like version control to avoid conflicts and ensure everyone is on the same page. <br><br> By following these tips, you can increase your productivity while coding, allowing you to work more efficiently and produce high-quality code."
+    }
+]

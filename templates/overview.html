@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Node-Library</title>
+        <style>
+            *,
+            *::after,
+            *::before {
+                margin: 0;
+                padding: 0;
+                box-sizing: inherit;
+            }
+            html {
+                font-size: 92.5%;
+                box-sizing: border-box;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            .card-container {
+                width: 50%;
+                margin: 40px auto;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+            }
+            .card {
+                display: flex;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            .card > div {
+                flex: 1;
+            }
+
+            .card_image img {
+                display: block;
+                width: 85%;
+                height: auto;
+                border-radius: 5px;
+            }
+
+            .meta {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .meta h4 {
+                margin: 0;
+            }
+
+            .meta p {
+                margin: 0;
+                font-size: 0.9rem;
+                color: #777;
+            }
+
+            .meta p:last-child {
+                margin-top: 5px;
+            }
+
+            .summary {
+                margin-top: 10px;
+                font-size: 0.9rem;
+                letter-spacing: 1px;
+            }
+            @media (max-width: 940px) {
+                .card-container {
+                    width: 70%;
+                }
+            }
+            @media (max-width: 768px) {
+                .card-container {
+                    width: 80%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card-container">
+            <div>
+                <h3>tech blog</h3>
+            </div>
+            <div class="card">
+                <div class="card_image">
+                    <img
+                        src="https://images.unsplash.com/photo-1675162113699-9ac46c409a8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=923&q=80"
+                        alt=""
+                    />
+                </div>
+                <div class="detail">
+                    <div class="meta">
+                        <h4>Title</h4>
+                        <p>
+                            <span>by author</span>
+                            <span> / 10d</span>
+                        </p>
+                        <p>10 min read</p>
+                        <p>education, growth, topics</p>
+                    </div>
+                    <div class="summary">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quos fugiat distinctio laborum recusandae!
+                            Tempora molestias sapiente deleniti accusantium.
+                            Placeat, laboriosam.
+                            <a href="#">read more...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_image">
+                    <img
+                        src="https://images.unsplash.com/photo-1675162113699-9ac46c409a8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=923&q=80"
+                        alt=""
+                    />
+                </div>
+                <div class="detail">
+                    <div class="meta">
+                        <h4>Title</h4>
+                        <p>
+                            <span>by author</span>
+                            <span> / 10d</span>
+                        </p>
+                        <p>10 min read</p>
+                        <p>education, growth, topics</p>
+                    </div>
+                    <div class="summary">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quos fugiat distinctio laborum recusandae!
+                            Tempora molestias sapiente deleniti accusantium.
+                            Placeat, laboriosam.
+                            <a href="#">read more...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_image">
+                    <img
+                        src="https://images.unsplash.com/photo-1675162113699-9ac46c409a8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=923&q=80"
+                        alt=""
+                    />
+                </div>
+                <div class="detail">
+                    <div class="meta">
+                        <h4>Title</h4>
+                        <p>
+                            <span>by author</span>
+                            <span> / 10d</span>
+                        </p>
+                        <p>10 min read</p>
+                        <p>education, growth, topics</p>
+                    </div>
+                    <div class="summary">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quos fugiat distinctio laborum recusandae!
+                            Tempora molestias sapiente deleniti accusantium.
+                            Placeat, laboriosam.
+                            <a href="#">read more...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

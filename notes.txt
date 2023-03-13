@@ -1,0 +1,8 @@
+http module gives us the networking capabilities such as building an http server.
+in order to build our server, we will have to two things
+- create server
+- start the server
+
+we don't need url modules to do simple task; we need to work with parameters to format information
+
+what is http response header

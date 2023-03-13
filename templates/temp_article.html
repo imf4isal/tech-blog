@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Node-Library</title>
+        <style>
+            *,
+            *::after,
+            *::before {
+                margin: 0;
+                padding: 0;
+                box-sizing: inherit;
+            }
+            html {
+                font-size: 92.5%;
+                box-sizing: border-box;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .container {
+                width: 50%;
+                margin: 50px auto;
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+            }
+            .cover img {
+                display: block;
+                width: 100%;
+                height: auto;
+                border-radius: 5px;
+            }
+            .article > p {
+                text-align: justify;
+                line-height: 1.5;
+            }
+            @media (max-width: 992px) {
+                .container {
+                    width: 70%;
+                }
+            }
+            @media (max-width: 768px) {
+                .container {
+                    width: 80%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="meta">
+                <div><a href="/">back</a></div>
+                <h4>{%TITLE%}</h4>
+                <p>
+                    <span>by {%AUTHOR%}</span>
+                    <span> / {%PUBLISHED%}</span>
+                </p>
+                <p>{%READINGTIME%} read</p>
+                <p>{%TOPIC%}</p>
+            </div>
+            <div class="cover">
+                <img src="{%URL%}" alt="" />
+            </div>
+            <div class="article">
+                <p>{%ARTICLE%}</p>
+            </div>
+        </div>
+    </body>
+</html>
